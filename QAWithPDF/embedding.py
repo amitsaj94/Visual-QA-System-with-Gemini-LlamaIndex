@@ -1,15 +1,12 @@
 from llama_index.core import VectorStoreIndex
 from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.embeddings.gemini import GeminiEmbedding
-
 from QAWithPDF.data_ingestion import load_data
 from QAWithPDF.model_api import load_model
 
-
-
 import sys
-
 import os
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from exception import customexception
