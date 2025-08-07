@@ -1,5 +1,5 @@
-venv
-.vscode
+venv/
+.vscode/
 .env
 __pycache__/
 *.pyc
@@ -8,5 +8,4 @@ __pycache__/
 *.egg-info/
 build/
 dist/
-.env
 logs/
